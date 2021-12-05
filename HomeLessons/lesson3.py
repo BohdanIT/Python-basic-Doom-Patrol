@@ -152,8 +152,8 @@ print(lst2)
 #23.
 list_A = [2, 3, 4]
 list_B = [5, 6, 7]
-raise_r = [a ** b for a, b in zip(list_A, list_B)]
-print(raise_r)
+list_C= list(map(lambda x, y: x ** y, list_A, list_B))
+print(list_C)
 #[32, 729, 16384]
 
 #24.
