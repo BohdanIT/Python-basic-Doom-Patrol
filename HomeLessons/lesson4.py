@@ -28,8 +28,8 @@ print(type(bus))
 
 # 4. Determine if School_bus is also an instance of the Vehicle class
 
-School_bus = Bus(150, 110000, 50)
-print(isinstance(School_bus, Vehicle))
+school_bus = Bus(150, 110000, 50)
+print(isinstance(school_bus, Vehicle))
 
 
 # 5. Create a new class School with get_school_id and number_of_students instance attributes
@@ -81,22 +81,22 @@ for sound in bear_wolf:
 # 8. Create class City with name, population instance attributes, return a new instance only when population > 1500,
 # otherwise return message: "Your city is too small".
 
-class City:
-    def __init__(self, name, population):
-        self.name = name
-        self.population = population
-
-    def when_population(self):
-        if self.population > 1500:
-            return self.population
-        else:
-            return f"Your city is too small"
-
-
-small = City('Irpin', 1000)
-big = City("Kyiv", 5000000)
-
-cities = (small, big)
-
-for population in cities:
-    print(population.when_population())
+# class City:
+#     def __init__(self, name, population):
+#         self.name = name
+#         self.population = population
+#
+#     def when_population(self):
+#         if self.population > 1500:
+#             return self.population
+#         else:
+#             return f"Your city is too small"
+#
+#
+# small = City('Irpin', 1000)
+# big = City("Kyiv", 5000000)
+#
+# cities = (small, big)
+#
+# for population in cities:
+#     print(population.when_population())
