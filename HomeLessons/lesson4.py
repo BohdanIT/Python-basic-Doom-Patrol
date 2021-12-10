@@ -43,9 +43,9 @@ class School:
 # 6*. Create a new class SchoolBus that will inherit all the methods from School and Bus and will have its own - bus_school_color
 
 class SchoolBus(Bus, School):
-    def __init__(self, max_speed, mileage, capacity, bus_school_color):
+    def __init__(self, max_speed, mileage, capacity, bus_color):
         super().__init__(max_speed, mileage, capacity)
-        self.bus_school_color = bus_school_color
+        self.bus_color = bus_color
 
     def bus_school_color(self):
         print(f'school bus is {self.bus_school_color}')
