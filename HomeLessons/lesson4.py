@@ -48,7 +48,7 @@ class SchoolBus(Bus, School):
         self.bus_color = bus_color
 
     def bus_school_color(self):
-        print(f'school bus is {self.bus_school_color}')
+        print(f'school bus is {self.bus_color}')
 
 
 # 7. Polymorphism: Create two classes: Bear, Wolf. Both of them should have make_sound method.
